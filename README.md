@@ -12,6 +12,14 @@ Trained using F5-TTS Small configuration. The official F5-TTS model is trained u
 
 Trained on Emilia-YODAS (CC-BY licensed). Trained using the F5-TTS framework on ~100K hours of speech.
 
+## Usage
+
+```
+pip install f5-tts
+huggingface-cli download mrfakename/OpenF5-Intermediate --local-dir openf5
+f5-tts_infer-cli -mc openf5/model_config.yaml -p openf5/model_last.pt  -v openf5/vocab.txt
+```
+
 ## License
 
 Scripts are licensed under MIT. Model is licensed under CC-BY 4.0 - you can use it commercially.
