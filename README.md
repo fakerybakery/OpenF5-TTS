@@ -1,6 +1,6 @@
 # OpenF5 TTS (WIP)
 
-A retrain of F5-TTS on permissively-licensed data to create a freely-licensed TTS model.
+A retrain of F5-TTS on permissively-licensed data to create a TTS model licensed for commercial use.
 
 **The model is still undergoing training. Intermediate checkpoints are available on [Hugging Face](https://huggingface.co/mrfakename/OpenF5-Intermediate) - but the model is not ready yet.**
 
@@ -22,4 +22,4 @@ f5-tts_infer-cli -mc openf5/model_config.yaml -p openf5/model_last.pt  -v openf5
 
 ## License
 
-Scripts are licensed under MIT. Model is licensed under CC-BY 4.0 - you can use it commercially.
+Scripts are licensed under MIT. Model is licensed under CC-BY 4.0 - you can use it commercially. No restrictions are placed on usage of model outputs - no attribution is required
