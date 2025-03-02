@@ -2,7 +2,7 @@
 
 A retrain of F5-TTS on permissively-licensed data to create a freely-licensed TTS model.
 
-**The model is still undergoing training. Intermediate checkpoints will be uploaded soon.**
+**The model is still undergoing training. Intermediate checkpoints are available on [Hugging Face](https://huggingface.co/mrfakename/OpenF5-Intermediate) - but the model is not ready yet.**
 
 ## Model
 
