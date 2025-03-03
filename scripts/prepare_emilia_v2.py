@@ -8,6 +8,7 @@ from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 from tqdm import tqdm
 from datasets.arrow_writer import ArrowWriter
+from importlib.resources import files
 
 from f5_tts.model.utils import (
     repetition_found,
@@ -85,7 +86,8 @@ if __name__ == "__main__":
     tokenizer = "char"
     dataset_dir = "/home/ubuntu/emilia-dataset/Emilia-YODAS/EN"
     dataset_name = f"Emilia_EN_{tokenizer}"
-    save_dir = os.path.expanduser(f"~/F5-TTS/data/{dataset_name}")
+    #save_dir = os.path.expanduser(f"~/F5-TTS/data/{dataset_name}")
+    save_dir = str(files("f5_tts").joinpath("../../")) + f"/data/{dataset_name}"
 
     print(f"Prepare for {dataset_name}, will save to {save_dir}\n")
     main()
