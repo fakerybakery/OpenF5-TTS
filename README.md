@@ -1,4 +1,4 @@
-# OpenF5 TTS (WIP)
+# OpenF5-TTS (WIP)
 
 A retrain of F5-TTS on permissively-licensed data to create a TTS model licensed for commercial use.
 
