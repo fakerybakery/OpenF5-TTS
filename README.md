@@ -1,3 +1,5 @@
+⚠️ **WORK IN PROGRESS**: This model is still in early training stages. Current checkpoints produce low-quality, garbled speech. Updated checkpoints will be released as training progresses.
+
 # OpenF5-TTS (WIP)
 
 A commercial-friendly version of F5-TTS retrained from scratch on permissively-licensed data.
