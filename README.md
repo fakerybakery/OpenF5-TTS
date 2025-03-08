@@ -1,3 +1,5 @@
+<img src="banner.png" width="500">
+
 ⚠️ **WORK IN PROGRESS**: This model is still in early training stages. Current checkpoints produce low-quality, garbled speech. Updated checkpoints will be released as training progresses.
 
 # OpenF5-TTS (WIP)
