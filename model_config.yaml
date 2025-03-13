@@ -21,6 +21,7 @@ model:
   name: OpenF5TTS_Small
   tokenizer: char
   tokenizer_path: None  # if tokenizer = 'custom', define the path to the tokenizer you want to use (should be vocab.txt)
+  backbone: DiT
   arch:
     dim: 768
     depth: 18
